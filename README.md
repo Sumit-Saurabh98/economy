@@ -8,6 +8,32 @@
 - Change Listings On category Change
 - Implemented Pagination to show large data iffectively
 
-### Possible Enhancement
+### Run locally / local setup
 
-- We can use infinite Scroll if wanted to show data in single page for performance improvement
+#### Prerequisites
+
+- Node.js (LTS recommended)
+- A package manager: `npm` (or `yarn` / `pnpm`)
+
+#### Setup
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+#### Start the project locally (development)
+
+```bash
+npm run dev
+```
+
+Then open `http://localhost:3000`.
+
+#### Production build (optional)
+
+```bash
+npm run build
+npm run start
+```
